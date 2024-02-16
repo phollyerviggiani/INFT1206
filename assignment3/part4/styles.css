@@ -40,7 +40,7 @@ body {
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between; /* change */
+    justify-content: space-between; 
   }
   
   nav a {
@@ -54,20 +54,20 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 1px;
   }
 
   .feature {
       width: 200px;
       float: left;
-      margin: 0 20px 0 20px;
+      margin: 0 20px 20px 0;
   }
 
-  article {
-    flex: 1;
+  article{
+    flex: 2;
   }
 
-  aside {
-    flex: 1;
+  aside{
+    flex: 0.7;
   }
