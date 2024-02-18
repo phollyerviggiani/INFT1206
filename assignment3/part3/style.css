@@ -50,31 +50,31 @@ footer {
 /* WRITE YOUR CODE BELOW HERE */
 
 @font-face {
-  font-family: "Open_Sans";
-  src: url(fonts/OpenSans-Regular.woff);
+  font-family: "Lora_Sans";
+  src: url(fonts/Lora-SemiBold.ttf);
 
 }
 
 @font-face {
-  font-family: "Noto_Serif";
-  src: url(fonts/NotoSerif-Regular.woff)
+  font-family: "Poppins-Regular-Sans-Serif";
+  src: url(fonts/Poppins-Regular.woff)
 }
 
 html {
-  font-family: "Noto_Serif", sans-serif;
+  font-family: "Lora_Sans", serif;
   font-size: 10px;
   
 }
 
 h1 {
-  font-family: "Open_Sans", serif;
+  font-family: "Poppins-Regular-Sans-Serif", sans-serif;
   font-size: 4.5rem;
   text-align: center;
   letter-spacing: 3px;
 }
 
 h2 {
-  font-family: "Open_Sans", serif;
+  font-family: "Poppins-Regular-Sans-Serif", sans-serif;
   font-size: 3em;
   letter-spacing: 1.5px;
 }
