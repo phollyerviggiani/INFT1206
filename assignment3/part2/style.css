@@ -5,7 +5,19 @@ html {
 div {
   width: 200px;
   line-height: 10;
+  margin: auto;
   text-align: center;
+
+  font-size: 1.2rem;
+  /* default size = 16, adjusting the rem and checking my live preview, I adjusted accordingly. */
+
+  color: white;
+  background-color: navy;
+  text-shadow: 2px 1px 1px black;
+
+
+
+
 }
 
 /* Your CSS below here */
