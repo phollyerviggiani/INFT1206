@@ -112,3 +112,16 @@ a:active {
   color: #a66;
   text-shadow: 0px 0px 1px rgb(134, 10, 10), 0px 0px 2px black;  
 }
+
+ul, ol {
+  margin: 2rem 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-alpha;
+}
+
