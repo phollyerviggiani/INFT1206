@@ -2,4 +2,10 @@ html {
   font-family: sans-serif;
 }
 
+div {
+  width: 200px;
+  line-height: 10;
+  text-align: center;
+}
+
 /* Your CSS below here */
