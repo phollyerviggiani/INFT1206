@@ -15,9 +15,19 @@ div {
   background-color: navy;
   text-shadow: 2px 1px 1px black;
 
+  border-radius: 13px;
+  border: 1px solid #050553;
 
+  background-image: linear-gradient(
+    to top left,
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2) 30%,
+    rgba(0,0,0,0)
+  );
 
-
+  box-shadow: 3px 3px 5px black, 
+              inset 1px 1px 4px rgba(255, 255, 255, 0.719), 
+              inset -2px -2px 4px rgba(0, 0, 0, 0.774);
 }
 
 /* Your CSS below here */
