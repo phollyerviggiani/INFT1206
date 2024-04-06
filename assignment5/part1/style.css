@@ -174,13 +174,13 @@ audio {
   width: 500px;
 }
 
-.transcript {
+.transcript { /* outline for the click me text */
   display: inline-block;
   margin-top: 1em;
+  margin-left: 26em;
   padding: .2em .5em;
-  outline: none;
   border-radius: .5em;
-  box-shadow: inset -1px -1px 3px #ddddee,  inset 1px 1px 3px #ddddee;
+  box-shadow: inset -1px -1px 3px #2a2a2a,  inset 1px 1px 3px #2a2a2a;
 }
 
 .transcript p {
@@ -188,11 +188,11 @@ audio {
   cursor: pointer;
 }
 
-.transcript p span {
+.transcript p span { /* getting rid of the click me text */
   font-size: 0;
 }
 
-.transcript:focus p {
+.transcript:focus p { /* getting rid of the click me text */
   font-size: 0;
 }
 

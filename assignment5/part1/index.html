@@ -16,9 +16,9 @@ In this project I will alter a web page to make it more accessible.
     type="text/css">
   <link rel="stylesheet" href="style.css">
 
-  <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+  <!--The below code doesnt need any changes, as they are conditional comments-->
   <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
   </head>
@@ -58,7 +58,7 @@ In this project I will alter a web page to make it more accessible.
         
         <p>Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.</p>
         
-        <table>
+        <table summary="A table containing facts about bears">
           <caption>Bear Facts</caption>
           <thead>
             <tr>
@@ -111,7 +111,7 @@ In this project I will alter a web page to make it more accessible.
         <audio controls>
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
-          <p>It looks like your browser doesn't support HTML5 audio players. Here is a link to the <a href="media/bear.mp3">MP3 audio</a>, or <a href="media/bear.ogg">OGG Audio</a></p>
+          <p>It looks like your browser doesn't support HTML5 audio players. Here is a link to the <a href="media/bear.mp3">MP3 audio</a>, or <a href="media/bear.ogg">OGG Audio instead</a></p>
         </audio>
 
         <div class="transcript" tabindex="0">
